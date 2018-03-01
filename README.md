@@ -1,0 +1,1 @@
+#Several tasks to get experience with Hadoop MapReduce framework
