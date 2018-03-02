@@ -11,7 +11,7 @@ import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 /**
  *  Hadoop MapReduce job for finding longest word in a pack of text files.
  *
- *  @author Artem Iushin <Artem_Iushin@epam.com>
+ *  @author Artem Iushin <yushin.tema@gmail.com>
  */
 public class LongestWordApp {
 

@@ -11,7 +11,7 @@ import java.util.Objects;
  * This class is used like Key for MapReduce job.
  * It keeps cityName name for comparing keys and osId which allows us to use this for partitioning.
  *
- * @author Artem_Iushin <Artem_Iushin@epam.com>
+ * @author Artem_Iushin <yushin.tema@gmail.com>
  */
 public class CityOsWritable implements WritableComparable<CityOsWritable> {
 

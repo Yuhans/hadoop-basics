@@ -15,7 +15,7 @@ import java.util.Map;
  * Utility class which processes file from Distributed Cache to create HashMap from it.
  * It contains public method to get name of a city by its id.
  *
- * @author Artem_Iushin <Artem_Iushin@epam.com>
+ * @author Artem_Iushin <yushin.tema@gmail.com>
  */
 public class CityMap {
 

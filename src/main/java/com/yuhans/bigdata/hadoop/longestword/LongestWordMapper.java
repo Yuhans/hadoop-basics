@@ -14,7 +14,7 @@ import java.util.StringTokenizer;
  * To benefit from natural sorting that is working out of the box in MapReduce words' length is put negated,
  * so longer words will come first.
  *
- * @author Artem Iushin <Artem_Iushin@epam.com>
+ * @author Artem Iushin <yushin.tema@gmail.com>
  */
 public class LongestWordMapper extends Mapper<LongWritable, Text, IntWritable, Text> {
     private Text word = new Text();

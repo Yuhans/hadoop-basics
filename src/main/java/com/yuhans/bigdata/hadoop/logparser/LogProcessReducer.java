@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * Reducer sums up total number of bytes and get average number per request from specific Ip.
  *
- * @author Artem_Iushin <Artem_Iushin@epam.com>
+ * @author Artem_Iushin <yushin.tema@gmail.com>
  */
 public class LogProcessReducer extends Reducer<Text, IpStats, Text, IpStats> {
 

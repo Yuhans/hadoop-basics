@@ -16,7 +16,7 @@ import java.text.ParseException;
  * Mapper parses logs and takes IP and bytes from request.
  * Also it parses user agent part of log string to count requests from different browsers.
  *
- * @author Artem_Iushin <Artem_Iushin@epam.com>
+ * @author Artem_Iushin <yushin.tema@gmail.com>
  */
 public class LogProcessMapper extends Mapper<LongWritable, Text, Text, IpStats> {
 

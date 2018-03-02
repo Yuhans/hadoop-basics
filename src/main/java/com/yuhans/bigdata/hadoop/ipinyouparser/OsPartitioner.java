@@ -7,7 +7,7 @@ import org.apache.hadoop.mapreduce.Partitioner;
 /**
  * Custom partitioner can be used to create partitions based on OS rather than hashcode.
  *
- * @author Artem_Iushin <Artem_Iushin@epam.com>
+ * @author Artem_Iushin <yushin.tema@gmail.com>
  */
 public class OsPartitioner extends Partitioner<CityOsWritable, LongWritable> {
     @Override

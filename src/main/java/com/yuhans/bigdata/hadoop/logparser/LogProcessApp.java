@@ -18,7 +18,7 @@ import org.apache.hadoop.util.ToolRunner;
 /**
  * Hadoop MapReduce Job for processing browser logs and outputs ip, average bytes per request and total bytes by ip.
  *
- * @author Artem_Iushin <Artem_Iushin@epam.com>
+ * @author Artem_Iushin <yushin.tema@gmail.com>
  */
 public class LogProcessApp extends Configured implements Tool {
 

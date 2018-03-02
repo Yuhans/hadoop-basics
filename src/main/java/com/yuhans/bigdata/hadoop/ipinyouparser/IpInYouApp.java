@@ -17,7 +17,7 @@ import org.apache.hadoop.util.ToolRunner;
  * It counts number of impression by city and spread result between several files
  * based on OS.
  *
- * @author Artem_Iushin <Artem_Iushin@epam.com>
+ * @author Artem_Iushin <yushin.tema@gmail.com>
  */
 public class IpInYouApp extends Configured implements Tool {
 

@@ -13,7 +13,7 @@ import java.util.List;
  * As input here comes in sorted order and Mapper maps in the way that longer words comes first
  * it should take only first word(s).
  *
- * @author Artem Iushin <Artem_Iushin@epam.com>
+ * @author Artem Iushin <yushin.tema@gmail.com>
  */
 public class LongestWordReducer extends Reducer<IntWritable, Text, Text, IntWritable> {
     private int length = 0;

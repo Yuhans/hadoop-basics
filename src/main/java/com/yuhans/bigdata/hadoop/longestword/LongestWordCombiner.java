@@ -13,7 +13,7 @@ import java.util.List;
  * It should drop words that are less then these that already passed further.
  * As input already comes in sorted order it take only longest words from respective mapper and drop all others.
  *
- * @author Artem Iushin <Artem_Iushin@epam.com>
+ * @author Artem Iushin <yushin.tema@gmail.com>
  */
 public class LongestWordCombiner extends Reducer<IntWritable, Text, IntWritable, Text> {
     private int length = 0;

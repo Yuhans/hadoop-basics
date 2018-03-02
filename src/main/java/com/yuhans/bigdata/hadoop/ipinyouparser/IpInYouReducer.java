@@ -13,7 +13,7 @@ import java.net.URI;
 /**
  * Reducer counts total number of events by city, get name of a city and write totalEvents to context.
  *
- * @author Artem_Iushin <Artem_Iushin@epam.com>
+ * @author Artem_Iushin <yushin.tema@gmail.com>
  */
 public class IpInYouReducer extends Reducer<CityOsWritable, LongWritable, Text, LongWritable> {
 

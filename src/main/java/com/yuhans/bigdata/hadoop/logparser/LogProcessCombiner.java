@@ -10,7 +10,7 @@ import java.io.IOException;
  * Combiner sums up total number of bytes per Ip and counts number of requests.
  * Number of requests is saved in field 'average' in IpStats.
  *
- * @author Artem_Iushin <Artem_Iushin@epam.com>
+ * @author Artem_Iushin <yushin.tema@gmail.com>
  */
 public class LogProcessCombiner extends Reducer<Text, IpStats, Text, IpStats> {
     @Override

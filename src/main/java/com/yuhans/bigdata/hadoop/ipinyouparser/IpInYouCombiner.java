@@ -9,7 +9,7 @@ import java.io.IOException;
 /**
  * Combiner summarizes the intermediate result in order to reduce the number of entities transmitted over the network
  *
- * @author Artem_Iushin <Artem_Iushin@epam.com>
+ * @author Artem_Iushin <yushin.tema@gmail.com>
  */
 public class IpInYouCombiner extends Reducer<CityOsWritable, LongWritable, CityOsWritable, LongWritable> {
 

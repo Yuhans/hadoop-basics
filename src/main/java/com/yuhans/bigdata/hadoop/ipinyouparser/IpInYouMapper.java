@@ -14,7 +14,7 @@ import java.io.IOException;
  * In map method it filters events by Event Id and Bidding Price, because we are interested only in impression event
  * and bidding price > 250.
  *
- * @author Artem_Iushin <Artem_Iushin@epam.com>
+ * @author Artem_Iushin <yushin.tema@gmail.com>
  */
 public class IpInYouMapper extends Mapper<LongWritable, Text, CityOsWritable, LongWritable> {
 
